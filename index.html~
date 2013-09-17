@@ -3,29 +3,34 @@
   <meta content="text/html; charset=us-ascii" http-equiv="Content-Type" />
   <title>(HTML) Oren Robinson Resume</title>
   <style type="text/css">
-    body, html { font-family: arial}
+    body, html { font-family: arial; }
     h1, h2, h3, ul {margin: 0px; }
+    h6 { font-size: 16px;
+margin: 10px 0;
+font-style: italic; }
+    .sub-h1 {font-size: 0.8em}
     h1 {margin-left: 10px; }
-    p, li, h3, h1 small {font-size:12px;}
+    p, li, h3, h1 small {font-size:14px;}
     p {margin: 6px 0px;}
     h2 { color: gray }
     #scores {margin:10px; width:100%; border: 1px solid #ccc; }
-    #scores .label, #scores .value { font-size:13px; }
+    #scores .label, #scores .value { font-size:14px; }
     #scores .label { width: 30%; }
     #scores .value { width: 20%; } 
     .sub-title { text-style: italic }
     .row {width: 100%; clear: left;}
     .span-half { width: 440px; padding: 10px; float: left;}
     .label { font-weight: bold; }
-    #page { margin: 10px;width: 960px; margin: 10px auto; }
+    #page { width: 960px; margin: 10px auto; }
     .education h3 {margin-top: 6px;}
-    .objective p {margin-top: 13px; font-size: 13px; }
+    .objective p {margin-top: 13px; font-size: 14px; }
     @media print {
       .print-only {display: block;}
     }
     @media screen {
       .print-only {display: none;}
     }
+    .references p {margin: 0 0 0 5px;}
   </style>
 </head>
 <body>
@@ -75,16 +80,17 @@
           </p>
           <p>
             Two years ago I challenged myself to work as the only English speaker at a Chinese non-government
-            organization. While there I designed and built my first enterprise-level CMS website, communicated and
+            organization. While there I designed and built my first production CMS website, communicated and
             trained users in solely Chinese, and overcame my first major security incident and database
             migration.
           </p>
           <p>
-            Since then, I've returned to Boston, where I began offering my services part-time to MassChallenge, Inc.
-            I continue to work here part-time as Chief Web Developer, This year our website provided 30,000 users with a robust
-            networking and game-like site experience. I developed both back and front end, trained 30+ staff and
-            managed security, server performance and source version control.
+            Since then, I've returned to Boston, where I began offering my services part-time to MassChallenge, 
+            as Chief Web Developer. The website I designed and implemented provided 30,000 users with a fine-tuned,
+            secure and robust site experience. After 2 years, I transitioned to a full-time position at Harvard University,
+            where I've worked on a team of Drupal experts to develop OpenScholar, a Drupal 7 profile for higher education.
           </p>
+          <p>Thanks for your time!</p>
         </div>
       </div>
       <div class="row">
@@ -110,40 +116,40 @@
         </div>
         <div class="experience span-half">
           <h2>Selected Experience</h2>
+          <h6>Web Application Developer</h6>
+          <p class="sub-title">Harvard University: OpenScholar, June 2012 - Present<p>
+          <ul>
+            <li>Helped maintain, develop, train and provide support for 3000+ production sites</li>
+            <li>Contributed on a team of 5 developers with a strict QA, code review and tests</li>
+            <li>Helped design, develop and deploy a mature, production-ready Drupal 7 profile</li>
+          </ul>
           <h6>Chief Web Developer (Drupal)</h6>
-          <p class="sub-title">MassChallenge, Inc, October 2010 - Present</p>
+          <p class="sub-title">MassChallenge, Inc, October 2010 - June 2012</p>
           <ul>
             <li>Chief designer and PHP/Drupal developer of an application website with 30,000 active users.</li>
             <li>Utilizing Drupal API for customizations, standardized feature modules, strict git dev/stage/prod workflow.</li>
             <li>Took on project planning and development team management previously assigned to CTO.</li>
           </ul>
-          <h6>Website Technical Lead</h6>
-          <p class="sub-title">Global Village of Beijing, June 2009 - June 2010<p>
-          <ul>
-            <li>Submitted proposal for organizational adaption of a CMS for internal/website use</li>
-            <li>Developed and migrated to a redesigned, multi-lingual, multi-project website in Drupal 6.</li>
-          </ul>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="span-half">
-        <h2>References</h2>
+      <div class="span-half references">
+        <h2>References upon request</h2>
+        <h3>Ben Buckman</h6>
+        <p class="sub-title">New Leaf Digital</h6>
+        <h3>Vishesh Duggar</h6>
+        <p class="sub-title">CauseCode</h6>
         <h3>Carol Shilepsky</h6>
         <p class="sub-title">Professor of Mathematics &amp; Computer Science</h6>
-        <p>Wells College, Aurora NY 13026</p>
-        <p>cshilepsky@wells.edu</p>
-        <p>home: (843) 588-9625</p>
         <h3>Dan Gildea Professor of Computer Science</h6>
         <p class="sub-title">University of Rochester</h6>
-        <p>601 Elmwood Avenue, Rochester, NY<br /></p>
-        <p>gildea@cs.rochester.edu</p>
       </div>
       <div class="span-half">
         <h2>Skills &amp; More</h2>
         <p>Critical thinker, creative designer and cheerful comerade. Main experience PHP/HTML/CSS on Drupal 6+7 
         API, and learning new tools is my primary skill. Current IDE of choice: Gedit on Ubuntu</p>
-        <p>Jazz performer with extensive experience in leading improvisational theater games, group meeting facilitation and project management. View my <a href="http://korbomite.deviantart.com/gallery/">graphic design portfolio</a>.</p>
+        <p>Jazz pianist with extensive experience in leading improvisational theater games, group meeting facilitation and project management. View my <a href="http://korbomite.deviantart.com/gallery/">graphic design portfolio</a>.</p>
       </div>
     </div>
     <div class="row footer">
